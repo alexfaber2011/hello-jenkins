@@ -8,7 +8,7 @@
 
   describe('GET /', function() {
     return it('respond with hello from jenkins', function(done) {
-      return request(app).get('/').expect('hello with Jenkins', done);
+      return request(app).get('/').expect('hello with Jenkins - live', done);
     });
   });
 
