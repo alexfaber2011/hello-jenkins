@@ -7,7 +7,7 @@
   app = express();
 
   app.get('/', function(req, res) {
-    return res.send('hello with Jenkins - live');
+    return res.send('hello with Jenkins');
   });
 
   app.listen(process.env.PORT || 5000);

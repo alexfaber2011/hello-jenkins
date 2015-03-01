@@ -2,8 +2,7 @@ express = require 'express'
 app = express()
 
 app.get '/', (req,res) ->
-  #Test
-  res.send('hello with Jenkins - live')
+  res.send('hello with Jenkins')
 
 app.listen process.env.PORT || 5000
 
